@@ -8,6 +8,6 @@ Live Demo: https://guess-number-pearl.vercel.app/
 - Css
 - Javascript
 
-![guess-number](./imageDes.png)
+![guess-number](imageDes.png)
 
 ### Made with :heart: 
