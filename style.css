@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
 }
+html{
+    font-size: 63%;
+}
 body{
     font-family:"Inter", sans-serif;
     font-weight: 600;
@@ -18,17 +21,17 @@ body{
     height: 100vh;
 }
 .header{
-    margin-bottom: 53px;
+    margin-bottom: 5.3rem;
 }
 .header h1{
     text-align: center;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 .game-box{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 589px;
-    height: 293px;
-    border-radius: 12px;
+    width: 58.9rem;
+    height: 29.3rem;
+    border-radius: 1.2rem;
     background-color: #FAFAFA;
     display: flex;
     /* align-items: center; */
@@ -38,25 +41,25 @@ body{
 .guessNum-box{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1rem;
     width: 44%;
     margin: 0 auto;
 }
 .result{
-    height: 48px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    height: 4.8rem;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
     background-color: #EBD6EC;
-    font-size: 32px;
+    font-size: 3.2rem;
     width: 100%;
     text-align: center;
-    padding: 5px 0;
+    padding: .5rem 0;
 }
 .number{
     width: 100%;
     margin: 0 auto;
-    padding: 5px;
-    font-size: 24px;
+    padding: .5rem;
+    font-size: 2.4rem;
     border: 1px solid #DBDBDB;
 }
 .number::placeholder{
@@ -69,10 +72,10 @@ body{
 .btn{
     background-color: #8C2A8E;
     color: #fff;
-    font-size: 24px;
-    padding: 10px;
+    font-size: 2.4rem;
+    padding: 1rem;
     border: none;
-    border-radius: 32px;
+    border-radius: 3.2rem;
 }
 .btn:hover{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -81,21 +84,22 @@ body{
 
 .remain-box{
     display: flex;
-    gap: 8px;
+    gap: .8rem;
     align-items: center;
-    padding: 0 0 17px 20px;
+    padding: 0 0 1.7rem 2rem;
 }
 .remain-box p{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
 }
 .remain-number{
-    width: 35px;
-    height: 35px;
+    width: 3.5rem;
+    height: 3.5rem;
     border: 1px solid #DBDBDB;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 2rem;
 }
 .hidden{
     visibility: hidden;
@@ -103,4 +107,9 @@ body{
 .disable{
     pointer-events: none;
     opacity: 0.3;
+}
+@media(max-width: 35em){
+    html{
+        font-size: 40%;
+    }
 }
