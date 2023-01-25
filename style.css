@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:"Inter", sans-serif;
+    font-weight: 600;
+    color: #8C2A8E;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    margin-bottom: 53px;
+}
+.header h1{
+    text-align: center;
+    font-size: 32px;
+}
+.game-box{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 589px;
+    height: 293px;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+.guessNum-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 44%;
+    margin: 0 auto;
+}
+.result{
+    height: 48px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #EBD6EC;
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+.number{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 24px;
+    border: 1px solid #DBDBDB;
+}
+.number::placeholder{
+    color: #8C2A8E;
+}
+.number:focus{
+    outline: none;
+    border: 2px solid #983f99;
+}
+.btn{
+    background-color: #8C2A8E;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 32px;
+}
+.btn:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #983f99;
+}
+
+.remain-box{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 0 0 17px 20px;
+}
+.remain-box p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.remain-number{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hidden{
+    visibility: hidden;
+}
+.disable{
+    pointer-events: none;
+    opacity: 0.3;
+}
